@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+:root {
+    --primary-color: #7C3AED;
+    --off-white:# F3F4F6;
+
+}
+
+body{
+    font-family: 'Source Sans Pro',
+     sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/** container **/
+
+.container {
+    padding : 0rem 10rem;
+
+}
+
+.no-bullets{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem ;
+    list-style: none;
+
+   
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+
+
+
+.nav-pills{
+    text-align: right;
+}
+
+.nav-pills .link{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.hero{
+    padding: 2rem;
+    ;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem ;
+    padding: 1rem;
+    color: var(--dary-gray);
+    text-align: center;
+
+}
+
+
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+/** sections **/
+
+.section{
+padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.section .ow{
+    background-color: var(--off-white);
+}
