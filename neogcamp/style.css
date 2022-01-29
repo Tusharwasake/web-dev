@@ -9,7 +9,15 @@
 body{
     font-family: 'Source Sans Pro',
      sans-serif;
+     margin: 0rem;
 }
+
+pre{
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    margin: 0rem;
+}
+
 
 hr{
     margin: 2rem 0rem;
@@ -39,29 +47,49 @@ hr{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
+    display:flex; 
+    justify-content: space-between;  
+    align-items: center;
 }
 
+.hero .pre-container .text-head{
+    padding-left: 2rem;
+    font-size: 3rem;
 
+}
 
 .nav-pills{
     text-align: right;
 }
 
+.navigation .nav-pills .list-item-inline .active{
+    font-weight: bolder;
+    color: rgb(255, 7, 110);
+}
 .nav-pills .link{
     color: white;
     text-decoration: none;
-    
+    font-size: 1.2rem;
+
 }
 
 .hero{
     padding: 2rem;
-    ;
+    
 }
+
 
 .hero .hero-img{
     max-width: 350px;
     display: block;
     margin:auto;
+   
+}
+
+.image-blog{
+    max-width: 350px;
+    display: block;
+    margin:auto; 
 }
 
 .hero .hero-heading{
@@ -72,6 +100,9 @@ hr{
 
 }
 
+.heading-inverted{
+    color:var(--primary-color);
+}
 
 
 .hero .hero-heading .heading-inverted{
@@ -82,6 +113,7 @@ hr{
 
 .section{
 padding: 2rem;
+text-align: center;
 }
 
 .section h1{
@@ -90,4 +122,41 @@ padding: 2rem;
 
 .section .ow{
     background-color: var(--off-white);
+}
+
+.links{
+    text-decoration: none;
+    padding:0.5rem 1rem ;
+}
+
+.links-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.links-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer .links{
+    color: white;
+}
+
+ul{
+    padding-inline-start: 40px;
+
+}
+
+.ow{
+    background-color:var(--off-white)
 }
